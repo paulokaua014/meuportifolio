@@ -1,15 +1,14 @@
-/*==================== GOOGLE FONTS ====================*/
+
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
-/*==================== VARIABLES CSS ====================*/
+
 :root {
     --header-height: 3rem;
 
-    /*========== Colors ==========*/
-    /* Change favorite color */
-    --hue-color: 142; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
+   
+    --hue-color: 142; 
 
-    /* HSL color mode */
+   
     --first-color: hsl(var(--hue-color), 69%, 61%);
     --first-color-second: hsl(var(--hue-color), 69%, 61%);
     --first-color-alt: hsl(var(--hue-color), 57%, 53%);
@@ -23,10 +22,10 @@
     --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
     --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
 
-    /*========== Font and typography ==========*/
+   
     --body-font: 'Poppins', sans-serif;
 
-    /* .5rem = 8px, 1rem = 16px, 1.5rem = 24px ... */
+   
     --big-font-size: 2rem;
     --h1-font-size: 1.5rem;
     --h2-font-size: 1.25rem;
@@ -35,12 +34,11 @@
     --small-font-size: .813rem;
     --smaller-font-size: .75rem;
 
-    /*========== Font weight ==========*/
+   
     --font-medium: 500;
     --font-semi-bold: 600;
 
-    /*========== Margenes Bottom ==========*/
-    /* .25rem = 4px, .5rem = 8px, .75rem = 12px ... */
+  
     --mb-0-25: .25rem;
     --mb-0-5: .5rem;
     --mb-0-75: .75rem;
@@ -50,13 +48,13 @@
     --mb-2-5: 2.5rem;
     --mb-3: 3rem;
 
-    /*========== z index ==========*/
+
     --z-tooltip: 10;
     --z-fixed: 100;
     --z-modal: 1000;
 }
 
-/* Font size for large devices */
+
 @media screen and (min-width: 968px) {
     :root {
         --big-font-size: 3rem;
@@ -69,13 +67,6 @@
     }
 }
 
-/*========== Variables Dark theme ==========*/
-
-
-/*========== Button Dark/Light ==========*/
-
-
-/*==================== BASE ====================*/
 * {
   box-sizing: border-box;
   padding: 0;
@@ -112,7 +103,6 @@ img {
   height: auto;
 }
 
-/*==================== REUSABLE CSS CLASSES ====================*/
 .section {
   padding: 2rem 0 4rem;
 }
@@ -135,7 +125,7 @@ img {
   text-align: center;
 }
 
-/*==================== LAYOUT ====================*/
+
 .container {
   max-width: 768px;
   margin-left: var(--mb-1-5);
@@ -156,7 +146,7 @@ img {
   background-color: var(--body-color);
 }
 
-/*==================== NAV ====================*/
+
 .nav{
   max-width: 989px;
   height: var(--header-height);
@@ -235,13 +225,10 @@ img {
   bottom: 0;
 }
 
-/* Active link */
 
 
-/* Change background header */
 
 
-/*==================== HOME ====================*/
 .home__container{
   gap: 1rem;
 
@@ -352,7 +339,7 @@ img {
   align-items: center;
 }
 
-/*==================== ABOUT ====================*/
+
 .about__img{
   width: 200px;
   border-radius: .5rem;
@@ -392,7 +379,6 @@ img {
   justify-content: center;
 }
 
-/*==================== SKILLS ====================*/
 .skills__container{
   row-gap: 0;
 
@@ -497,7 +483,7 @@ img {
 
 
 
-/*==================== QUALIFICATION ====================*/
+
 .qualificacao__tabs{
   display: flex;
   justify-content: space-evenly;
@@ -566,41 +552,4 @@ img {
 .qualificacao__button.qualificacao__active{
   color: var(--first-color);
 }
-/*==================== SERVICES ====================*/
 
-
-/* Active Modal */
-
-
-/*==================== PORTFOLIO ====================*/
-
-
-/*==================== PROJECT IN MIND ====================*/
-
-
-/*==================== TESTIMONIAL ====================*/
-
-
-/*==================== CONTACT ME ====================*/
-
-
-/*==================== FOOTER ====================*/
-
-
-/*========== SCROLL UP ==========*/
-
-
-/* Show scroll */
-
-
-/*========== SCROLL BAR ==========*/
-
-
-/*==================== MEDIA QUERIES ====================*/
-/* For small devices */
-
-
-/* For medium devices */
-
-
-/* For large devices */
