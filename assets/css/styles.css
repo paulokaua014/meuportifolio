@@ -1,4 +1,5 @@
 
+
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
 
@@ -704,7 +705,7 @@ img {
   margin-right: var(--mb-0-25);
 }
 
-/* Active Modal */
+
 .active-modal{
   opacity: 1;
   visibility: visible;

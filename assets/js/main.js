@@ -44,6 +44,7 @@ skillsHeader.forEach((el) =>{
     el.addEventListener('click', toggleSkills)
 })
 
+
 const modalViews = document.querySelectorAll('.servicos__modal'),
     modalBtns = document.querySelectorAll('.servicos__button'),
     modalCloses = document.querySelectorAll('.servicos__modal-close')
@@ -83,6 +84,7 @@ let swiper = new Swiper(".portifolio__container", {
 
 
 
+
 const sections = document.querySelectorAll('section[id]')
 
 function scrollActive(){
@@ -108,7 +110,7 @@ function scrollHeader(){
     if(this.scrollY >=80) nav.classList.add('scroll-header'); else nav.classList.remove('scroll-header')
 }
 window.addEventListener('scroll', scrollHeader)
- 
+
 function scrollUp(){
     const scrollUp = document.getElementById('scroll-up');
     if(this.scrollY >=560) scrollUp.classList.add('show-scroll'); else scrollUp.classList.remove('show-scroll')
@@ -131,7 +133,7 @@ const getCurrentIcon = () => themeButton.classList.contains(iconTheme) ? 'uil-mo
 
 
 if (selectedTheme) {
-  
+
   document.body.classList[selectedTheme === 'dark' ? 'add' : 'remove'](darkTheme)
   themeButton.classList[selectedIcon === 'uil-moon' ? 'add' : 'remove'](iconTheme)
 }
