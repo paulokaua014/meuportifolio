@@ -1052,3 +1052,45 @@ img {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+@media screen and (min-width:1687px){
+  .header,
+  .main,
+  .footer__container{
+    margin-right: 300px;
+  }
+  body {
+    overflow-x: hidden; 
+    transform: translateX(-10rem);
+  
+  }
+  
+  .home__blob{
+    width: 620px;
+  }
+  .home__social{
+    transform: translateX(-14rem);
+  }
+
+  .portifolio__content{
+    column-gap: 10rem;
+  }
+  .swiper-portifolio-icon{
+    font-size: 4.5rem;
+  }
+  .swiper-button-prev{
+    left: -4.5rem;
+  }
+  .swiper-button-next{
+    right: -4.5rem;
+  }
+  .swiper-container-horizontal > .swiper-pagination-bullets{
+    bottom: -4.5rem;
+  }
+  .contato__form{
+    width: 870px;
+  }
+  .contato__input{
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+}
